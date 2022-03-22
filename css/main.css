@@ -26,6 +26,9 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: .75rem;
+  grid-template-areas:
+  "wonder wonder wonder"
+  "wonder2 wonder3 wonder4"
 }
 
 div h2, p {
@@ -38,23 +41,19 @@ div h2, p {
 }
 
 .wonder {
-  grid-column: 1 / -1;
-  grid-row: 1;
+  grid-area: wonder;
 }
 
 .wonder2 {
-  grid-column: 1;
-  grid-row: 2;
+  grid-area: wonder2;
 }
 
 .wonder3 {
-  grid-column: 2;
-  grid-row: 2;
+  grid-area: wonder3;
 }
 
 .wonder4 {
-  grid-column: 3;
-  grid-row: 2;
+  grid-area: wonder4;
 }
 
 figcaption h2 {
@@ -63,5 +62,8 @@ figcaption h2 {
 
 dl {
   margin: 1rem;
+}
+
+dt {
   font-style: italic;
 }
