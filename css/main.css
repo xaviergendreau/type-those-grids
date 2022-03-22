@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -11,10 +11,17 @@ html {
 h1 {
   padding: 1rem;
   font-style: italic;
+  font-weight: normal;
 }
 
 h2 {
   font-style: italic;
+  font-weight: normal;
+}
+
+div p {
+  font-style: italic;
+  color: white;
 }
 
 img {
@@ -27,8 +34,8 @@ main {
   grid-template-rows: 1fr 1fr;
   gap: .75rem;
   grid-template-areas:
-  "wonder wonder wonder"
-  "wonder2 wonder3 wonder4"
+    "wonder wonder wonder"
+    "wonder2 wonder3 wonder4";
 }
 
 div h2, p {
