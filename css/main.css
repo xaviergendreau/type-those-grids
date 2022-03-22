@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Merriweather", serif;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -13,9 +13,13 @@ h1 {
   font-style: italic;
 }
 
+h2 {
+  font-style: italic;
+}
+
 img {
-   width: 100%;
- }
+  width: 100%;
+}
 
 main {
   display: grid;
@@ -24,15 +28,14 @@ main {
   gap: .75rem;
 }
 
-div h2 {
+div h2, p {
   margin: 0;
   grid-column: 1 / 3;
   grid-row: 1;
   align-self: end;
   z-index: 1;
-  font-style: italic;
   color: white;
- }
+}
 
 .wonder {
   grid-column: 1 / -1;
