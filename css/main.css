@@ -48,6 +48,7 @@ div h2, p {
 }
 
 .wonder {
+  margin: 1rem;
   grid-area: wonder;
   align-self: end;
   z-index: 1;
