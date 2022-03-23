@@ -36,6 +36,10 @@ main {
     "wonder2 wonder3 wonder4";
 }
 
+figure {
+  margin: 0;
+}
+
 div h2, p {
   margin: 0;
   grid-column: 1 / 3;
