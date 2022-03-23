@@ -18,7 +18,8 @@ h1 {
 h2 {
   font-style: italic;
   font-weight: normal;
-  margin: 1rem;
+  font-size: 1.8rem;
+  margin: 1.5rem;
 }
 
 div p {
