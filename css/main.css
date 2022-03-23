@@ -77,13 +77,13 @@ div h2, p {
   grid-area: wonder4;
 }
 
-figcaption h2 {
-  margin: 1rem;
-}
-
-/*dl {
+/*figcaption h2 {
   margin: 1rem;
 }*/
+
+dl {
+  margin: 0rem 1rem;
+}
 
 dt {
   font-style: italic;
